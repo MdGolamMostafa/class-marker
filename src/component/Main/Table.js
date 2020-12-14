@@ -13,14 +13,8 @@ const Table = (record) => {
     {
         console.log(typeof recordData);
     }
-
-   
-
-        
-    
-
     return (
-        <div>
+        <div className="text-center">
         <div>
         
 
@@ -36,6 +30,7 @@ const Table = (record) => {
                             <th scope="col">job</th>
                             <th scope="col">city</th>
                             <th scope="col">phone</th>
+                            <th scope="col">Movie</th>
                            
                         </tr>
                     </thead>
@@ -48,6 +43,7 @@ const Table = (record) => {
                             <td>{recordData.job}</td>
                             <td>{recordData.city}</td>
                             <td>{recordData.phone}</td>
+                            <td>{recordData['Fav Movie']}</td>
                         </tr>
                     </tbody>
                 </table>
