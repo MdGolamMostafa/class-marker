@@ -29,11 +29,15 @@ const MainPage = () => {
 
     return (
         <div>
-              
+            
               <h1>Total Records are {mockData.length}  </h1>
+                <div className = "container mt-5">
+                    <h1 className="text-primary mb-3">Our table</h1>
+
+                </div>
 
             <PageInit></PageInit>
-            <Records></Records>
+            <Records records={currentrecords} loading={loading}> </Records>
             
         </div>
     );
