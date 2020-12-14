@@ -12,22 +12,22 @@ const PageInit = ({ recordsPerPage, totalrecords, paginate }) => {
   }
     return (
         <div >
-            <h1>Bismillah PageInit</h1>
-            <nav>
-        <ul className="pagination">
-          {pageNumbers.map((number) => (
-            <li key={number} className="page-item">
-              <a
-                onClick={() => paginate(number)}
-                href="!#"
-                className="page-link"
-              >
-                {number}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </nav>
+            <h1> Pages</h1>
+                <nav>
+                    <ul className="pagination">
+                        {pageNumbers.map((number) => (
+                            <li key={number} className="page-item">
+                                <a
+                                    onClick={() => paginate(number)}
+                                    href="!#"
+                                    className="page-link"
+                                >
+                                    {number}
+                                </a>
+                            </li>
+                        ))}
+                    </ul>
+                </nav>
         </div>
     );
 };

@@ -4,10 +4,9 @@ import MainPage from './component/Main/MainPage'
 
 function App() {
   return (
-    <div className="text-center">
+    <div>
     
       <MainPage></MainPage>
-      
       
     </div>
   );
