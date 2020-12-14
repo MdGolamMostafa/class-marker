@@ -1,11 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
+import MainPage from './component/Main/MainPage'
 
 function App() {
   return (
-    <div className="App">
+    <div className="text-center">
     
-      <h1>Bismillah</h1>
+      <MainPage></MainPage>
+      
+      
     </div>
   );
 }
