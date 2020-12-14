@@ -10,7 +10,7 @@ const Table = (record) => {
     }
     
     for (const [recordData] of Object.entries(record))
-        // console.log(recordData);
+        console.log(recordData);
     
 
     return (

@@ -36,9 +36,14 @@ const MainPage = () => {
 
                 </div>
 
-            <PageInit></PageInit>
+           
             <Records records={currentrecords} loading={loading}> </Records>
-            
+            <PageInit
+                recordsPerPage={recordsPerPage}
+                totalrecords={mockData.length}
+                paginate={paginate}
+
+            ></PageInit>
         </div>
     );
 };

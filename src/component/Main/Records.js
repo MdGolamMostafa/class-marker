@@ -9,7 +9,7 @@ const Records = ({ records, loading }) => {
       }
     return (
         <div>
-            <h1>Bismillah Records</h1>
+            <h1> Record table</h1>
             
             <ul className="list-group mb-4">
                 {records.map((record) => (
